@@ -1,0 +1,1247 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Basic Questionnaire Study",
+        "version": "pilot",
+        "authors": [
+            "The reVISit Team"
+        ],
+        "date": "2024-03-19",
+        "description": "A simple questionnaire study",
+        "organizations": [
+            "University of Utah",
+            "WPI",
+            "University of Toronto"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "jjbornstein@wpi.edu",
+        "helpTextPath": "basic-questionnaire-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true,
+		"nextOnEnter": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "basic-questionnaire-study/assets/introduction.md",
+            "response": []
+        },
+        
+        
+		"pie-15": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_15.png",
+            "response": [
+                {
+                    "id": "pie-15",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-15",
+				"answer": 15
+			  }]
+        },
+		"pie-18": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_18.png",
+            "response": [
+                {
+                    "id": "pie-18",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-18",
+				"answer": 18
+			  }]
+        },
+		"pie-20": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_20.png",
+            "response": [
+                {
+                    "id": "pie-20",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-20",
+				"answer": 20
+			  }]
+        },
+		"pie-25": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_25.png",
+            "response": [
+                {
+                    "id": "pie-25",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-25",
+				"answer": 25
+			  }]
+        },
+		"pie-28": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_28.png",
+            "response": [
+                {
+                    "id": "pie-28",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-28",
+				"answer": 28
+			  }]
+        },
+		"pie-33": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_33.png",
+            "response": [
+                {
+                    "id": "pie-33",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-33",
+				"answer": 33
+			  }]
+        },
+		"pie-35": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_35.png",
+            "response": [
+                {
+                    "id": "pie-35",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-35",
+				"answer": 35
+			  }]
+        },
+		"pie-38": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_38.png",
+            "response": [
+                {
+                    "id": "pie-38",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-38",
+				"answer": 38
+			  }]
+        },
+		"pie-43": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_43.png",
+            "response": [
+                {
+                    "id": "pie-43",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-43",
+				"answer": 43
+			  }]
+        },
+		"pie-45": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_45.png",
+            "response": [
+                {
+                    "id": "pie-45",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-45",
+				"answer": 45
+			  }]
+        },
+		"pie-50": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_50.png",
+            "response": [
+                {
+                    "id": "pie-50",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-50",
+				"answer": 50
+			  }]
+        },
+		"pie-53": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_53.png",
+            "response": [
+                {
+                    "id": "pie-53",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-53",
+				"answer": 53
+			  }]
+        },
+		"pie-55": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_55.png",
+            "response": [
+                {
+                    "id": "pie-55",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-55",
+				"answer": 55
+			  }]
+        },
+		"pie-63": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_63.png",
+            "response": [
+                {
+                    "id": "pie-63",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-63",
+				"answer": 63
+			  }]
+        },
+		"pie-65": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_65.png",
+            "response": [
+                {
+                    "id": "pie-65",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-65",
+				"answer": 65
+			  }]
+        },
+		"pie-68": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_68.png",
+            "response": [
+                {
+                    "id": "pie-68",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-68",
+				"answer": 68
+			  }]
+        },
+		"pie-70": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_70.png",
+            "response": [
+                {
+                    "id": "pie-70",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-70",
+				"answer": 70
+			  }]
+        },
+		"pie-80": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_80.png",
+            "response": [
+                {
+                    "id": "pie-80",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-80",
+				"answer": 80
+			  }]
+        },
+		"pie-85": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_85.png",
+            "response": [
+                {
+                    "id": "pie-85",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-85",
+				"answer": 85
+			  }]
+        },
+		"pie-90": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_90.png",
+            "response": [
+                {
+                    "id": "pie-90",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-90",
+				"answer": 90
+			  }]
+        },
+		"pie-95": {
+            "type": "image",
+			"path": "basic-questionnaire-study/assets/images/pie_chart_95.png",
+            "response": [
+                {
+                    "id": "pie-95",
+                    "prompt": "What percentage is the smaller of the larger?", 
+                    "required": true,
+                    "location": "sidebar",
+                    "type": "numerical",
+					"placeholder": "[0 - 100]"
+                }
+            ],
+			"correctAnswer": [{
+				"id": "pie-95",
+				"answer": 95
+			  }]
+        },
+
+		"bar-15": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_15.png",
+			"response": [
+				{
+					"id": "bar-15",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-15",
+				"answer": 15
+			  }]
+		},
+		"bar-18": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_18.png",
+			"response": [
+				{
+					"id": "bar-18",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-18",
+				"answer": 18
+			  }]
+		},
+		"bar-20": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_20.png",
+			"response": [
+				{
+					"id": "bar-20",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-20",
+				"answer": 20
+			  }]
+		},
+		"bar-25": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_25.png",
+			"response": [
+				{
+					"id": "bar-25",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-25",
+				"answer": 25
+			  }]
+		},
+		"bar-28": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_28.png",
+			"response": [
+				{
+					"id": "bar-28",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-28",
+				"answer": 28
+			  }]
+		},
+		"bar-33": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_33.png",
+			"response": [
+				{
+					"id": "bar-33",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-33",
+				"answer": 33
+			  }]
+		},
+		"bar-35": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_35.png",
+			"response": [
+				{
+					"id": "bar-35",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-35",
+				"answer": 35
+			  }]
+		},
+		"bar-38": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_38.png",
+			"response": [
+				{
+					"id": "bar-38",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-38",
+				"answer": 38
+			  }]
+		},
+		"bar-43": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_43.png",
+			"response": [
+				{
+					"id": "bar-43",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-43",
+				"answer": 43
+			  }]
+		},
+		"bar-45": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_45.png",
+			"response": [
+				{
+					"id": "bar-45",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-45",
+				"answer": 45
+			  }]
+		},
+		"bar-50": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_50.png",
+			"response": [
+				{
+					"id": "bar-50",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-50",
+				"answer": 50
+			  }]
+		},
+		"bar-53": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_53.png",
+			"response": [
+				{
+					"id": "bar-53",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-53",
+				"answer": 53
+			  }]
+		},
+		"bar-55": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_55.png",
+			"response": [
+				{
+					"id": "bar-55",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-55",
+				"answer": 55
+			  }]
+		},
+		"bar-63": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_63.png",
+			"response": [
+				{
+					"id": "bar-63",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-63",
+				"answer": 63
+			  }]
+		},
+		"bar-65": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_65.png",
+			"response": [
+				{
+					"id": "bar-65",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-65",
+				"answer": 65
+			  }]
+		},
+		"bar-68": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_68.png",
+			"response": [
+				{
+					"id": "bar-68",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-68",
+				"answer": 68
+			  }]
+		},
+		"bar-70": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_70.png",
+			"response": [
+				{
+					"id": "bar-70",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-70",
+				"answer": 70
+			  }]
+		},
+		"bar-80": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_80.png",
+			"response": [
+				{
+					"id": "bar-80",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-80",
+				"answer": 80
+			  }]
+		},
+		"bar-85": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_85.png",
+			"response": [
+				{
+					"id": "bar-85",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-85",
+				"answer": 85
+			  }]
+		},
+		"bar-90": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_90.png",
+			"response": [
+				{
+					"id": "bar-90",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-90",
+				"answer": 90
+			  }]
+		},
+		"bar-95": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/bar_chart_95.png",
+			"response": [
+				{
+					"id": "bar-95",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "bar-95",
+				"answer": 95
+			  }]
+		},
+
+		"circular_bar-15": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_15.png",
+			"response": [
+				{
+					"id": "circular_bar-15",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-15",
+				"answer": 15
+			  }]
+		},
+		"circular_bar-18": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_18.png",
+			"response": [
+				{
+					"id": "circular_bar-18",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-18",
+				"answer": 18
+			  }]
+		},
+		"circular_bar-20": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_20.png",
+			"response": [
+				{
+					"id": "circular_bar-20",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-20",
+				"answer": 20
+			  }]
+		},
+		"circular_bar-25": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_25.png",
+			"response": [
+				{
+					"id": "circular_bar-25",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-25",
+				"answer": 25
+			  }]
+		},
+		"circular_bar-28": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_28.png",
+			"response": [
+				{
+					"id": "circular_bar-28",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-28",
+				"answer": 28
+			  }]
+		},
+		"circular_bar-33": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_33.png",
+			"response": [
+				{
+					"id": "circular_bar-33",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-33",
+				"answer": 33
+			  }]
+		},
+		"circular_bar-35": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_35.png",
+			"response": [
+				{
+					"id": "circular_bar-35",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-35",
+				"answer": 35
+			  }]
+		},
+		"circular_bar-38": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_38.png",
+			"response": [
+				{
+					"id": "circular_bar-38",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-38",
+				"answer": 38
+			  }]
+		},
+		"circular_bar-43": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_43.png",
+			"response": [
+				{
+					"id": "circular_bar-43",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-43",
+				"answer": 43
+			  }]
+		},
+		"circular_bar-45": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_45.png",
+			"response": [
+				{
+					"id": "circular_bar-45",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-45",
+				"answer": 45
+			  }]
+		},
+		"circular_bar-50": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_50.png",
+			"response": [
+				{
+					"id": "circular_bar-50",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-50",
+				"answer": 50
+			  }]
+		},
+		"circular_bar-53": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_53.png",
+			"response": [
+				{
+					"id": "circular_bar-53",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-53",
+				"answer": 53
+			  }]
+		},
+		"circular_bar-55": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_55.png",
+			"response": [
+				{
+					"id": "circular_bar-55",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-55",
+				"answer": 55
+			  }]
+		},
+		"circular_bar-63": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_63.png",
+			"response": [
+				{
+					"id": "circular_bar-63",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-63",
+				"answer": 63
+			  }]
+		},
+		"circular_bar-65": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_65.png",
+			"response": [
+				{
+					"id": "circular_bar-65",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-65",
+				"answer": 65
+			  }]
+		},
+		"circular_bar-68": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_68.png",
+			"response": [
+				{
+					"id": "circular_bar-68",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-68",
+				"answer": 68
+			  }]
+		},
+		"circular_bar-70": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_70.png",
+			"response": [
+				{
+					"id": "circular_bar-70",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-70",
+				"answer": 70
+			  }]
+		},
+		"circular_bar-80": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_80.png",
+			"response": [
+				{
+					"id": "circular_bar-80",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-80",
+				"answer": 80
+			  }]
+		},
+		"circular_bar-85": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_85.png",
+			"response": [
+				{
+					"id": "circular_bar-85",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-85",
+				"answer": 85
+			  }]
+		},
+		"circular_bar-90": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_90.png",
+			"response": [
+				{
+					"id": "circular_bar-90",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-90",
+				"answer": 90
+			  }]
+		},
+		"circular_bar-95": {
+			"type": "image",
+			"path": "basic-questionnaire-study/assets/images/circular_bar_chart_95.png",
+			"response": [
+				{
+					"id": "circular_bar-95",
+					"prompt": "What percentage is the smaller of the larger?", 
+					"required": true,
+					"location": "sidebar",
+					"type": "numerical",
+					"placeholder": "[0 - 100]"
+				}
+			],
+			"correctAnswer": [{
+				"id": "circular_bar-95",
+				"answer": 95
+			  }]
+		}
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+			{
+				"components": [
+					"pie-15",
+					"pie-18",
+					"pie-20",
+					"pie-25",
+					"pie-28",
+					"pie-33",
+					"pie-35",
+					"pie-38",
+					"pie-43",
+					"pie-45",
+					"pie-50",
+					"pie-53",
+					"pie-55",
+					"pie-63",
+					"pie-65",
+					"pie-68",
+					"pie-70",
+					"pie-80",
+					"pie-85",
+					"pie-90",
+					"pie-95",
+
+					"bar-15",
+					"bar-18",
+					"bar-20",
+					"bar-25",
+					"bar-28",
+					"bar-33",
+					"bar-35",
+					"bar-38",
+					"bar-43",
+					"bar-45",
+					"bar-50",
+					"bar-53",
+					"bar-55",
+					"bar-63",
+					"bar-65",
+					"bar-68",
+					"bar-70",
+					"bar-80",
+					"bar-85",
+					"bar-90",
+					"bar-95",
+
+					"circular_bar-15",
+					"circular_bar-18",
+					"circular_bar-20",
+					"circular_bar-25",
+					"circular_bar-28",
+					"circular_bar-33",
+					"circular_bar-35",
+					"circular_bar-38",
+					"circular_bar-43",
+					"circular_bar-45",
+					"circular_bar-50",
+					"circular_bar-53",
+					"circular_bar-55",
+					"circular_bar-63",
+					"circular_bar-65",
+					"circular_bar-68",
+					"circular_bar-70",
+					"circular_bar-80",
+					"circular_bar-85",
+					"circular_bar-90",
+					"circular_bar-95"
+				],
+				"order": "random"
+			}
+        ]
+    }
+}
