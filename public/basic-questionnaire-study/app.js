@@ -10,7 +10,7 @@
   
 	  // Read CSV text
 	  const csvText = await response.text();
-  
+	  csvText.replaceAll("\n", "\r\n");
 	  // Split into lines
 	  const lines = csvText
 		.split("\n")
@@ -26,7 +26,7 @@
 	  for (let i = 1; i < lines.length; i++) {
 		//row = participantID - 0, trialId - 1, trialOrder - 2, responseId - 3, percentComplete - 4, answer - 5, correctAnswer - 6
 		const row = lines[i].split(",");
-		console.log("Row:", row);
+		//console.log("Row:", row);
 		
 		//if (parseFloat(row[4])!=100) {continue;} //only take data from participants that have completed the trials
 		if (row[4] == "undefined") continue;
@@ -35,7 +35,7 @@
 		const chartType = row[1].split("-")[0];
 		const correctAnswer = parseFloat(row[6]);
 		const guess = parseFloat(row[5]);
-		console.log(participantID);
+		//console.log(participantID);
 		data.push({
 		  participantID,
 		  correctAnswer,
@@ -43,7 +43,7 @@
 		  guess
 		});
 	  }
-	  console.log(data);
+	  //console.log(data);
 	  return data;
 	} catch (error) {
 	  console.error("Error parsing CSV:", error);
@@ -304,7 +304,7 @@
    window.addEventListener("DOMContentLoaded", async () => {
 	// 1) Fetch CSV
 	const csvData = await getAndParseCSV('data.csv');
-  
+	console.log(csvData);
 	// 2) If no data, exit
 	if (!csvData || csvData.length === 0) {
 	  console.error("No valid CSV data found.");
